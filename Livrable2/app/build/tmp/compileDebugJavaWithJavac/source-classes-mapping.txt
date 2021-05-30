@@ -1,0 +1,4 @@
+fr/eg23/livrable2/BuildConfig.java
+ fr.eg23.livrable2.BuildConfig
+fr/eg23/livrable2/MainActivity.java
+ fr.eg23.livrable2.MainActivity
