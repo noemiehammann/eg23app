@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Livrable2</string>
+    <string name="accueil">Accueil</string>
+    <string name="gestion_des_enseignants">Gestion des enseignants</string>
 </resources>
