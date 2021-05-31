@@ -4,9 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000066"
+    android:background="@color/darkblue"
     android:forceDarkAllowed="false"
     tools:context=".MainActivity">
+
+    <include
+        layout="@layout/footer"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
 
     <TextView
         android:id="@+id/textView"
