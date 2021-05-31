@@ -77,7 +77,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\no
 	android:allowBackup
 		ADDED from C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:11:9-47
+		ADDED from C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:11:9-41
 activity#fr.eg23.livrable2.GestionDesEnseignants
 ADDED from C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:12:9-68
 	android:name

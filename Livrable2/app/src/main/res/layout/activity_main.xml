@@ -9,16 +9,17 @@
     tools:context=".MainActivity">
 
     <include
+        android:id="@+id/include"
         layout="@layout/footer"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:text="@string/accueil"
         android:textColor="@color/orange"
         android:textSize="36sp"
@@ -29,13 +30,58 @@
 
     <Button
         android:id="@+id/menu1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/my_button_bg"
         android:text="@string/gestion_des_enseignants"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/my_button_bg"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/menu2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_button_bg"
+        android:text="Gestion des UEs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu1" />
+
+    <Button
+        android:id="@+id/menu3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_button_bg"
+        android:text="Répartition des étudiants"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu2" />
+
+    <Button
+        android:id="@+id/menu4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_button_bg"
+        android:text="Statistiques des flux entrants et sortants"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu3" />
+
+    <Button
+        android:id="@+id/menu5"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_button_bg"
+        android:text="Gestion du semestre en cours"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
