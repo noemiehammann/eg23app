@@ -2,7 +2,9 @@ package fr.eg23.livrable2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Menu 2
-        final Button menu1= (Button) findViewById(R.id.menu1);
+        final Button menu2= (Button) findViewById(R.id.menu1);
         // Création d’un évènement qui attend un clic sur le bouton
-        menu1.setOnClickListener(new View.OnClickListener() {
+        menu2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { // fonction déclenchée sur le clic du bouton
                 // Création d’une activité associée à l’exécution de MaGestionListe.class
