@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Livrable2" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--Colors for the app-->
+        <item name="colorPrimary">@color/darkblue</item>
+        <item name="colorPrimaryVariant">@color/lightblue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/lightorange</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+    </style>
+</resources>
