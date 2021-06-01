@@ -14,9 +14,8 @@
         layout="@layout/footer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="-500dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="237dp" />
 
     <TextView
         android:id="@+id/textView"
