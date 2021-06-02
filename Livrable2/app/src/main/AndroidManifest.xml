@@ -9,11 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Livrable2">
-        <activity android:name=".GestionDuSemestreEnCours"></activity>
-        <activity
-            android:name=".StatistiquesDesFlux"
-            android:label="@string/title_activity_statistiques_des_flux"
-            android:theme="@style/Livrable2.NoActionBar" />
+        <activity android:name=".StatistiquesFlux"></activity>
+        <activity android:name=".GestionDuSemestreEnCours" />
         <activity android:name=".RepartitionDesEtudiants" />
         <activity android:name=".GestionDesUes" />
         <activity android:name=".GestionDesEnseignants" />

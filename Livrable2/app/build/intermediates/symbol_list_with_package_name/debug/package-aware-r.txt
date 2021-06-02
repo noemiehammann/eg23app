@@ -1680,6 +1680,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable logofooter
+drawable logohat
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1713,6 +1714,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable retour_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1807,6 +1809,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id buttonPanel
 id button_first
 id button_second
@@ -1880,7 +1883,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -1913,6 +1915,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id info
 id invisible
 id inward
@@ -2024,6 +2027,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2108,6 +2112,7 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2123,8 +2128,8 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id titre
 id toggle
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2215,8 +2220,7 @@ layout activity_gestion_des_ues
 layout activity_gestion_du_semestre_en_cours
 layout activity_main
 layout activity_repartition_des_etudiants
-layout activity_statistiques_des_flux
-layout content_statistiques_des_flux
+layout activity_statistiques_flux
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2283,6 +2287,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

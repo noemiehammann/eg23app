@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) { // fonction déclenchée sur le clic du bouton
                 // Création d’une activité associée à l’exécution de MaGestionListe.class
-                Intent intent = new Intent(MainActivity.this, StatistiquesDesFlux.class);
+                Intent intent = new Intent(MainActivity.this, StatistiquesFlux.class);
                 // Exécution de l’activité : ouverture de la fenêtre
                 startActivity(intent);
             }

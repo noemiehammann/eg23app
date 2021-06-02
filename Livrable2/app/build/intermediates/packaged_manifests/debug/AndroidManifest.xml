@@ -18,11 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Livrable2" >
+        <activity android:name="fr.eg23.livrable2.StatistiquesFlux" />
         <activity android:name="fr.eg23.livrable2.GestionDuSemestreEnCours" />
-        <activity
-            android:name="fr.eg23.livrable2.StatistiquesDesFlux"
-            android:label="@string/title_activity_statistiques_des_flux"
-            android:theme="@style/Livrable2.NoActionBar" />
         <activity android:name="fr.eg23.livrable2.RepartitionDesEtudiants" />
         <activity android:name="fr.eg23.livrable2.GestionDesUes" />
         <activity android:name="fr.eg23.livrable2.GestionDesEnseignants" />
