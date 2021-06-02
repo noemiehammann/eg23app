@@ -11,7 +11,7 @@
 9-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:5:5-20:19
+11-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
 12-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -25,25 +25,43 @@
 17-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/Livrable2" >
-19-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:11:9-41
-20        <activity android:name="fr.eg23.livrable2.GestionDesEnseignants" />
-20-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:12:9-68
-20-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:12:19-56
-21        <activity android:name="fr.eg23.livrable2.MainActivity" >
-21-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:13:9-19:20
-21-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:13:19-47
-22            <intent-filter>
-22-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:14:13-18:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:15:17-69
-23-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:15:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:17:17-77
-25-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:17:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/Livrable2" >
+20-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:11:9-41
+21        <activity android:name="fr.eg23.livrable2.GestionDuSemestreEnCours" />
+21-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:12:9-71
+21-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:12:19-59
+22        <activity
+22-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:13:9-16:60
+23            android:name="fr.eg23.livrable2.StatistiquesDesFlux"
+23-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:14:13-48
+24            android:label="@string/title_activity_statistiques_des_flux"
+24-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:15:13-73
+25            android:theme="@style/Livrable2.NoActionBar" />
+25-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:16:13-57
+26        <activity android:name="fr.eg23.livrable2.RepartitionDesEtudiants" />
+26-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:17:9-61
+26-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:17:19-58
+27        <activity android:name="fr.eg23.livrable2.GestionDesUes" />
+27-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:18:9-51
+27-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:18:19-48
+28        <activity android:name="fr.eg23.livrable2.GestionDesEnseignants" />
+28-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:19:9-59
+28-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:19:19-56
+29        <activity android:name="fr.eg23.livrable2.MainActivity" >
+29-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:20:9-26:20
+29-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:20:19-47
+30            <intent-filter>
+30-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:24:17-77
+33-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

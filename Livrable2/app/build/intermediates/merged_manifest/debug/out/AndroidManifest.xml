@@ -16,7 +16,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Livrable2" >
+        <activity android:name="fr.eg23.livrable2.GestionDuSemestreEnCours" />
+        <activity
+            android:name="fr.eg23.livrable2.StatistiquesDesFlux"
+            android:label="@string/title_activity_statistiques_des_flux"
+            android:theme="@style/Livrable2.NoActionBar" />
+        <activity android:name="fr.eg23.livrable2.RepartitionDesEtudiants" />
+        <activity android:name="fr.eg23.livrable2.GestionDesUes" />
         <activity android:name="fr.eg23.livrable2.GestionDesEnseignants" />
         <activity android:name="fr.eg23.livrable2.MainActivity" >
             <intent-filter>
