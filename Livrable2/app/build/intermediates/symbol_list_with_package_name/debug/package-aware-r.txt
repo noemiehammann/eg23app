@@ -2217,6 +2217,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_gestion_des_enseignants
 layout activity_gestion_des_ues
+layout activity_gestion_des_ues_graphiques
 layout activity_gestion_du_semestre_en_cours
 layout activity_main
 layout activity_repartition_des_etudiants

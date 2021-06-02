@@ -1,9 +1,11 @@
 package fr.eg23.livrable2;
 
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -38,7 +40,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
     @Override
     public int getItemCount() {
-
         return ueList.size();
     }
 
@@ -53,6 +54,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
             imageView = itemView.findViewById(R.id.imageView2);
             textView = itemView.findViewById(R.id.textView3);
+
         }
     }
 }

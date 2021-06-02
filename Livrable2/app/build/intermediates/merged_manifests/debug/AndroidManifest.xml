@@ -18,6 +18,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Livrable2" >
+        <activity android:name="fr.eg23.livrable2.GestionDesUesGraphiques" />
         <activity android:name="fr.eg23.livrable2.StatistiquesFlux" />
         <activity android:name="fr.eg23.livrable2.GestionDuSemestreEnCours" />
         <activity android:name="fr.eg23.livrable2.RepartitionDesEtudiants" />

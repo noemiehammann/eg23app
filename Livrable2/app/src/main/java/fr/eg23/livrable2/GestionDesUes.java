@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,5 +45,14 @@ public class GestionDesUes extends AppCompatActivity {
         ueList.add("NF16");
         ueList.add("RE14");
 
+        recyclerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { // fonction déclenchée sur le clic du bouton
+                // Création d’une activité associée à l’exécution de MaGestionListe.class
+                Intent intent = new Intent(GestionDesUes.this, GestionDesUesGraphiques.class);
+                // Exécution de l’activité : ouverture de la fenêtre
+                startActivity(intent);
+            }
+        });
     }
 }
