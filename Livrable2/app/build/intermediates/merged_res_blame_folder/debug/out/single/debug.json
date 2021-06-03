@@ -20,16 +20,16 @@
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logofooter.png.flat",
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\drawable\\logofooter.png"
     },
     {
-        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -44,6 +44,10 @@
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_loupe.png.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\loupe.png"
+    },
+    {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -52,12 +56,24 @@
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_loupe.png.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\loupe.png"
+    },
+    {
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_loupe.png.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\loupe.png"
+    },
+    {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_loupe.png.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\loupe.png"
     },
     {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
@@ -80,6 +96,10 @@
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_loupe.png.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\loupe.png"
+    },
+    {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
@@ -96,6 +116,14 @@
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\layout\\activity_gestion_du_semestre_en_cours.xml"
     },
     {
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_loupe.xml.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\loupe.xml"
+    },
+    {
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\menu_liste_main.xml.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\menu\\liste_main.xml"
+    },
+    {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_my_button_bg.xml.flat",
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\drawable\\my_button_bg.xml"
     },
@@ -110,6 +138,10 @@
     {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_loupe.png.flat",
+        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\loupe.png"
     },
     {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

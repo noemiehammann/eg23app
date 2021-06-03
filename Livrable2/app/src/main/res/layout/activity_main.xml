@@ -35,6 +35,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.964" />
 
+    <!-- menu -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -55,6 +56,7 @@
         android:layout_marginTop="140dp"
         android:background="@drawable/my_button_bg"
         android:text="@string/gestion_des_enseignants"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,6 +69,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/my_button_bg"
         android:text="Gestion des UEs"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu1" />
@@ -78,6 +81,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/my_button_bg"
         android:text="Répartition des étudiants"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu2" />
@@ -89,6 +93,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/my_button_bg"
         android:text="Statistiques des flux entrants et sortants"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu3" />
@@ -100,6 +105,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/my_button_bg"
         android:text="Gestion du semestre en cours"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu4" />
