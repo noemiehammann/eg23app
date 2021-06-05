@@ -3,6 +3,7 @@ fr/eg23/livrable2/SecondFragment.java
  fr.eg23.livrable2.SecondFragment$1
 fr/eg23/livrable2/RecyclerAdapter.java
  fr.eg23.livrable2.RecyclerAdapter
+ fr.eg23.livrable2.RecyclerAdapter$1
  fr.eg23.livrable2.RecyclerAdapter$ViewHolder
 fr/eg23/livrable2/RepartitionDesEtudiants.java
  fr.eg23.livrable2.RepartitionDesEtudiants

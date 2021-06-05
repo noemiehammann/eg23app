@@ -6,21 +6,28 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> implements Filterable {
 
     private static final String TAG = "RecyclerAdapteur";
     List<String> ueList;
+    List<String> ueListAll;
 
     public RecyclerAdapter(List<String> ueList){
+
         this.ueList=ueList;
+        this.ueListAll= new ArrayList<>(ueList);
     }
 
     @NonNull
@@ -42,6 +49,39 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     public int getItemCount() {
         return ueList.size();
     }
+
+    @Override
+    public Filter getFilter() {
+        return filter;
+    }
+
+    Filter filter = new Filter() {
+        //fonctionne en arrière plan
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            List<String> filteredList = new ArrayList<>();
+            if (constraint.toString().isEmpty()){
+                filteredList.addAll(ueListAll);
+            } else{
+                for (String ue: ueListAll){
+                    if (ue.toLowerCase().contains(constraint.toString().toLowerCase())){
+                        filteredList.add(ue);
+                    }
+                }
+            }
+
+            FilterResults filterResults = new FilterResults();
+            filterResults.values = filteredList;
+            return filterResults;
+        }
+        //fonctionne sur l'interface
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            ueList.clear();
+            ueList.addAll((Collection<? extends String>) results.values);
+            notifyDataSetChanged();
+        }
+    };
 
     class ViewHolder extends RecyclerView.ViewHolder{
 

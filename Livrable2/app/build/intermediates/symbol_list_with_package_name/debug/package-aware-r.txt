@@ -1787,7 +1787,6 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_search
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1804,6 +1803,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id barreTxtUes
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2028,8 +2028,10 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rechercheUes
 id rectangles
 id recyclerView
+id retourMenu
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2309,7 +2311,6 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-menu liste_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

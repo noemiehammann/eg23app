@@ -120,10 +120,6 @@
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\loupe.xml"
     },
     {
-        "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\menu_liste_main.xml.flat",
-        "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\menu\\liste_main.xml"
-    },
-    {
         "merged": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_my_button_bg.xml.flat",
         "source": "C:\\Users\\noemi\\eg23app\\Livrable2\\app\\src\\main\\res\\drawable\\my_button_bg.xml"
     },

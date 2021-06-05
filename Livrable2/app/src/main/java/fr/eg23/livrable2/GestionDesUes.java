@@ -5,11 +5,15 @@ import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +52,21 @@ public class GestionDesUes extends AppCompatActivity {
         ueList.add("NF16");
         ueList.add("RE14");
 
-    }
+        //barre de recherche
+       ImageButton searchbuttonUe = findViewById(R.id.rechercheUes);
+       searchbuttonUe.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               EditText searchtextUe = findViewById(R.id.barreTxtUes);
+               String rechercheUe = searchtextUe.getText().toString().toLowerCase();
+               recyclerAdapter.getFilter().filter(rechercheUe);
+
+           }
+       });
+
+
+
+        }
 
         //pour aller sur une autre page -- NE FONCTIONNE PAS
         /*recyclerView.setOnClickListener(new View.OnClickListener() {
@@ -60,27 +78,5 @@ public class GestionDesUes extends AppCompatActivity {
                 startActivity(intent);
             }
         }); */
-
-
-        // search bar
-        @Override
-        public boolean onCreateOptionsMenu(Menu menu) {
-            getMenuInflater().inflate(R.menu.liste_main, menu);
-            MenuItem item = menu.findItem(R.id.action_search);
-            SearchView searchView = (SearchView) item.getActionView();
-            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-                @Override
-                public boolean onQueryTextSubmit(String query) {
-                    return false;
-                }
-
-                @Override
-                public boolean onQueryTextChange(String newText) {
-                    return false;
-                }
-            });
-
-            return super.onCreateOptionsMenu(menu);
-        }
 
     }

@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Livrable2">
-        <activity android:name=".GestionDesUesGraphiques"></activity>
+        <activity android:name=".GestionDesUesGraphiques"/>
         <activity android:name=".StatistiquesFlux" />
         <activity android:name=".GestionDuSemestreEnCours" />
         <activity android:name=".RepartitionDesEtudiants" />

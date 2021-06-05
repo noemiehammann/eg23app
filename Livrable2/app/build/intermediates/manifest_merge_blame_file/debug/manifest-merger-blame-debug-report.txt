@@ -29,7 +29,7 @@
 20        android:theme="@style/Livrable2" >
 20-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:11:9-41
 21        <activity android:name="fr.eg23.livrable2.GestionDesUesGraphiques" />
-21-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:12:9-70
+21-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:12:9-60
 21-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:12:19-58
 22        <activity android:name="fr.eg23.livrable2.StatistiquesFlux" />
 22-->C:\Users\noemi\eg23app\Livrable2\app\src\main\AndroidManifest.xml:13:9-54
