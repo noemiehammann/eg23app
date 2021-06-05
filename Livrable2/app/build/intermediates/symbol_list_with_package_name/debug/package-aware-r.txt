@@ -1671,6 +1671,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable effectif_ue
+drawable effectif_ue_full
+drawable encadrement_ue
+drawable encadrement_ue_full
+drawable fleche
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1811,10 +1816,11 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
 id buttonPanel
 id button_first
 id button_second
+id buttondiagramme1
+id buttondiagramme2
 id cache_measures
 id cancel_button
 id center
@@ -1859,6 +1865,8 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id diagramme1
+id diagramme2
 id dialog_button
 id dimensions
 id direct
@@ -2117,6 +2125,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

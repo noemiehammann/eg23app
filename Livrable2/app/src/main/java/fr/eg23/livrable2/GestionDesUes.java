@@ -59,7 +59,7 @@ public class GestionDesUes extends AppCompatActivity {
 
         ueListAll = ueList;
 
-        //barre de recherche
+        //barre de recherche -- filtrage
        ImageButton searchbuttonUe = findViewById(R.id.rechercheUes);
        searchbuttonUe.setOnClickListener(new View.OnClickListener() {
            @Override
@@ -85,6 +85,7 @@ public class GestionDesUes extends AppCompatActivity {
            }
        });
 
+       //passage aux graphismes
        recyclerView.setOnTouchListener(new View.OnTouchListener() {
            @Override
            public boolean onTouch(View v, MotionEvent event) {
@@ -95,5 +96,15 @@ public class GestionDesUes extends AppCompatActivity {
                return true;
            }
        });
+
+       //retour menu
+        final Button retourMenu= (Button) findViewById(R.id.retourMenu);
+        // Création d’un évènement qui attend un clic sur le bouton
+        retourMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { // fonction déclenchée sur le clic du bouton
+                finish();
+            }
+        });
     }
 }

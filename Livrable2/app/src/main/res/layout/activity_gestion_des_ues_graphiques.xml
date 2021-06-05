@@ -4,6 +4,113 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GestionDesUesGraphiques">
+    tools:context=".GestionDesUesGraphiques"
+    android:background="@color/darkblue"
+    android:forceDarkAllowed="false">
+
+    <!--footer -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
+        android:src="@drawable/logofooter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vianney BAYART\nNoémie HAMMANN"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <!--bouton retour-->
+    <Button
+        android:id="@+id/retourMenu"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/retour_bg"
+        android:text="RETOUR MENU"
+        android:textColor="@color/lightorange"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/my_button_bg"
+        android:text="EG23 - Jean-Marc NIGRO"
+        android:textColor="@color/darkblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diagramme1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/effectif_ue" />
+
+    <Button
+        android:id="@+id/buttondiagramme1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/fleche"
+        app:layout_constraintStart_toStartOf="@+id/diagramme1"
+        app:layout_constraintTop_toTopOf="@+id/diagramme1" />
+
+    <ImageView
+        android:id="@+id/diagramme2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diagramme1"
+        app:srcCompat="@drawable/encadrement_ue" />
+
+    <Button
+        android:id="@+id/buttondiagramme2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/fleche"
+        app:layout_constraintStart_toStartOf="@+id/diagramme2"
+        app:layout_constraintTop_toTopOf="@+id/diagramme2" />
+
+    <!-- contenu page -->
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
