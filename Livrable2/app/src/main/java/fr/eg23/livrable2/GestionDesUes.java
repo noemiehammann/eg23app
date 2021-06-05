@@ -10,10 +10,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Filter;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +27,9 @@ public class GestionDesUes extends AppCompatActivity {
     RecyclerAdapter recyclerAdapter;
 
     List<String> ueList;
+    List<String> ueListAll;
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +57,8 @@ public class GestionDesUes extends AppCompatActivity {
         ueList.add("NF16");
         ueList.add("RE14");
 
+        ueListAll = ueList;
+
         //barre de recherche
        ImageButton searchbuttonUe = findViewById(R.id.rechercheUes);
        searchbuttonUe.setOnClickListener(new View.OnClickListener() {
@@ -59,24 +66,34 @@ public class GestionDesUes extends AppCompatActivity {
            public void onClick(View v) {
                EditText searchtextUe = findViewById(R.id.barreTxtUes);
                String rechercheUe = searchtextUe.getText().toString().toLowerCase();
-               recyclerAdapter.getFilter().filter(rechercheUe);
+
+               List<String> filteredList = new ArrayList<>();
+               if (rechercheUe.isEmpty()){
+                   filteredList.addAll(ueList);
+               } else{
+                   for (String ue: ueListAll){
+                       if (ue.toLowerCase().contains(rechercheUe.toLowerCase())){
+                           filteredList.add(ue);
+                       }
+                   }
+               }
+
+               ueList.clear();
+               ueList.addAll(filteredList);
+               recyclerAdapter.notifyDataSetChanged();
 
            }
        });
 
-
-
-        }
-
-        //pour aller sur une autre page -- NE FONCTIONNE PAS
-        /*recyclerView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) { // fonction déclenchée sur le clic du bouton
-                // Création d’une activité associée à l’exécution de MaGestionListe.class
-                Intent intent = new Intent(GestionDesUes.this, GestionDesUesGraphiques.class);
-                // Exécution de l’activité : ouverture de la fenêtre
-                startActivity(intent);
-            }
-        }); */
-
+       recyclerView.setOnTouchListener(new View.OnTouchListener() {
+           @Override
+           public boolean onTouch(View v, MotionEvent event) {
+               // Création d’une activité associée à l’exécution de MaGestionListe.class
+               Intent intent = new Intent(GestionDesUes.this, GestionDesUesGraphiques.class);
+               // Exécution de l’activité : ouverture de la fenêtre
+               startActivity(intent);
+               return true;
+           }
+       });
     }
+}

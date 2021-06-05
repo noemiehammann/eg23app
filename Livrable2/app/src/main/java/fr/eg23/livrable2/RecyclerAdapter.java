@@ -1,5 +1,6 @@
 package fr.eg23.livrable2;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> implements Filterable {
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder>{
 
     private static final String TAG = "RecyclerAdapteur";
     List<String> ueList;
@@ -28,6 +29,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
         this.ueList=ueList;
         this.ueListAll= new ArrayList<>(ueList);
+
     }
 
     @NonNull
@@ -50,40 +52,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         return ueList.size();
     }
 
-    @Override
-    public Filter getFilter() {
-        return filter;
-    }
-
-    Filter filter = new Filter() {
-        //fonctionne en arrière plan
-        @Override
-        protected FilterResults performFiltering(CharSequence constraint) {
-            List<String> filteredList = new ArrayList<>();
-            if (constraint.toString().isEmpty()){
-                filteredList.addAll(ueListAll);
-            } else{
-                for (String ue: ueListAll){
-                    if (ue.toLowerCase().contains(constraint.toString().toLowerCase())){
-                        filteredList.add(ue);
-                    }
-                }
-            }
-
-            FilterResults filterResults = new FilterResults();
-            filterResults.values = filteredList;
-            return filterResults;
-        }
-        //fonctionne sur l'interface
-        @Override
-        protected void publishResults(CharSequence constraint, FilterResults results) {
-            ueList.clear();
-            ueList.addAll((Collection<? extends String>) results.values);
-            notifyDataSetChanged();
-        }
-    };
-
-    class ViewHolder extends RecyclerView.ViewHolder{
+    class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         ImageView imageView;
         TextView textView;
@@ -94,6 +63,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
             imageView = itemView.findViewById(R.id.imageView2);
             textView = itemView.findViewById(R.id.textView3);
+
+        }
+
+        @Override
+        public void onClick(View v) {
 
         }
     }
