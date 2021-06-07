@@ -34,6 +34,8 @@ public class RepartitionDesEtudiants extends AppCompatActivity {
             @Override
             public void onClick(View v) { // fonction déclenchée sur le clic du bouton
                 Intent intent = new Intent(RepartitionDesEtudiants.this, Repartition2.class);
+                // Exécution de l’activité : ouverture de la fenêtre
+                startActivity(intent);
             }
         });
 

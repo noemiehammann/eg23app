@@ -35,6 +35,8 @@ public class StatistiquesmainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) { // fonction déclenchée sur le clic du bouton
                 Intent intent = new Intent(StatistiquesmainActivity.this, StatistiquesFlux.class);
+                // Exécution de l’activité : ouverture de la fenêtre
+                startActivity(intent);
             }
         });
 

@@ -1,22 +1,16 @@
 package fr.eg23.livrable2;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Filter;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -93,7 +87,7 @@ public class GestionDesUes extends AppCompatActivity {
                Intent intent = new Intent(GestionDesUes.this, GestionDesUesGraphiques.class);
                // Exécution de l’activité : ouverture de la fenêtre
                startActivity(intent);
-               return true;
+               return false;
            }
        });
 
@@ -103,6 +97,7 @@ public class GestionDesUes extends AppCompatActivity {
         retourMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { // fonction déclenchée sur le clic du bouton
+
                 finish();
             }
         });

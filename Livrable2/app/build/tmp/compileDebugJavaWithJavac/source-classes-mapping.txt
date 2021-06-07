@@ -1,8 +1,6 @@
-fr/eg23/livrable2/StatistiquesmainActivity.java
- fr.eg23.livrable2.StatistiquesmainActivity
- fr.eg23.livrable2.StatistiquesmainActivity$1
- fr.eg23.livrable2.StatistiquesmainActivity$2
- fr.eg23.livrable2.StatistiquesmainActivity$3
+fr/eg23/livrable2/Repartition2.java
+ fr.eg23.livrable2.Repartition2
+ fr.eg23.livrable2.Repartition2$1
 fr/eg23/livrable2/BuildConfig.java
  fr.eg23.livrable2.BuildConfig
 fr/eg23/livrable2/GestionDesUesGraphiques.java
@@ -10,8 +8,13 @@ fr/eg23/livrable2/GestionDesUesGraphiques.java
  fr.eg23.livrable2.GestionDesUesGraphiques$1
  fr.eg23.livrable2.GestionDesUesGraphiques$2
  fr.eg23.livrable2.GestionDesUesGraphiques$3
-fr/eg23/livrable2/GestionDuSemestreEnCours.java
- fr.eg23.livrable2.GestionDuSemestreEnCours
+fr/eg23/livrable2/GestionDesEnseignants.java
+ fr.eg23.livrable2.GestionDesEnseignants
+ fr.eg23.livrable2.GestionDesEnseignants$1
+fr/eg23/livrable2/Gestion2.java
+ fr.eg23.livrable2.Gestion2
+ fr.eg23.livrable2.Gestion2$1
+ fr.eg23.livrable2.Gestion2$2
 fr/eg23/livrable2/GestionDesUes.java
  fr.eg23.livrable2.GestionDesUes
  fr.eg23.livrable2.GestionDesUes$1
@@ -23,18 +26,29 @@ fr/eg23/livrable2/SecondFragment.java
 fr/eg23/livrable2/RecyclerAdapter.java
  fr.eg23.livrable2.RecyclerAdapter
  fr.eg23.livrable2.RecyclerAdapter$ViewHolder
+fr/eg23/livrable2/FirstFragment.java
+ fr.eg23.livrable2.FirstFragment
+ fr.eg23.livrable2.FirstFragment$1
+fr/eg23/livrable2/StatistiquesFlux.java
+ fr.eg23.livrable2.StatistiquesFlux
+ fr.eg23.livrable2.StatistiquesFlux$1
+ fr.eg23.livrable2.StatistiquesFlux$2
+fr/eg23/livrable2/StatistiquesmainActivity.java
+ fr.eg23.livrable2.StatistiquesmainActivity
+ fr.eg23.livrable2.StatistiquesmainActivity$1
+ fr.eg23.livrable2.StatistiquesmainActivity$2
+ fr.eg23.livrable2.StatistiquesmainActivity$3
 fr/eg23/livrable2/RepartitionDesEtudiants.java
  fr.eg23.livrable2.RepartitionDesEtudiants
  fr.eg23.livrable2.RepartitionDesEtudiants$1
  fr.eg23.livrable2.RepartitionDesEtudiants$2
  fr.eg23.livrable2.RepartitionDesEtudiants$3
-fr/eg23/livrable2/StatistiquesFlux.java
- fr.eg23.livrable2.StatistiquesFlux
- fr.eg23.livrable2.StatistiquesFlux$1
- fr.eg23.livrable2.StatistiquesFlux$2
-fr/eg23/livrable2/GestionDesEnseignants.java
- fr.eg23.livrable2.GestionDesEnseignants
- fr.eg23.livrable2.GestionDesEnseignants$1
+fr/eg23/livrable2/GestionDuSemestreEnCours.java
+ fr.eg23.livrable2.GestionDuSemestreEnCours
+ fr.eg23.livrable2.GestionDuSemestreEnCours$1
+ fr.eg23.livrable2.GestionDuSemestreEnCours$2
+ fr.eg23.livrable2.GestionDuSemestreEnCours$3
+ fr.eg23.livrable2.GestionDuSemestreEnCours$4
 fr/eg23/livrable2/MainActivity.java
  fr.eg23.livrable2.MainActivity
  fr.eg23.livrable2.MainActivity$1
@@ -42,9 +56,3 @@ fr/eg23/livrable2/MainActivity.java
  fr.eg23.livrable2.MainActivity$3
  fr.eg23.livrable2.MainActivity$4
  fr.eg23.livrable2.MainActivity$5
-fr/eg23/livrable2/FirstFragment.java
- fr.eg23.livrable2.FirstFragment
- fr.eg23.livrable2.FirstFragment$1
-fr/eg23/livrable2/Repartition2.java
- fr.eg23.livrable2.Repartition2
- fr.eg23.livrable2.Repartition2$1
