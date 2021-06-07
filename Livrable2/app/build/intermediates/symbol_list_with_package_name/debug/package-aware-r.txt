@@ -1657,6 +1657,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable branche
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1671,10 +1672,14 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable diagramme3
+drawable diagramme4
 drawable effectif_ue
 drawable effectif_ue_full
 drawable encadrement_ue
 drawable encadrement_ue_full
+drawable entree
+drawable entree_sortie
 drawable fleche
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -1720,7 +1725,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable repartition_programme
 drawable retour_bg
+drawable semestre
+drawable sortie
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1821,6 +1829,8 @@ id button_first
 id button_second
 id buttondiagramme1
 id buttondiagramme2
+id buttondiagramme3
+id buttondiagramme4
 id cache_measures
 id cancel_button
 id center
@@ -1867,6 +1877,8 @@ id design_menu_item_text
 id design_navigation_view
 id diagramme1
 id diagramme2
+id diagramme3
+id diagramme4
 id dialog_button
 id dimensions
 id direct
@@ -1926,6 +1938,10 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView3
+id imageView4
+id imageView5
+id imageradio
 id info
 id invisible
 id inward
@@ -2035,6 +2051,10 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
+id radioButton2
+id radioButton3
+id radiogroup
 id ratio
 id rechercheUes
 id rectangles
@@ -2233,6 +2253,7 @@ layout activity_gestion_des_ues
 layout activity_gestion_des_ues_graphiques
 layout activity_gestion_du_semestre_en_cours
 layout activity_main
+layout activity_repartition2
 layout activity_repartition_des_etudiants
 layout activity_statistiques_flux
 layout custom_dialog
@@ -2305,6 +2326,7 @@ layout row_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout statistiquesmain
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius

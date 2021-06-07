@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +8,50 @@
     tools:context=".GestionDesUesGraphiques"
     android:background="@color/darkblue"
     android:forceDarkAllowed="false">
+
+    <ImageView
+        android:id="@+id/diagramme1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/effectif_ue" />
+
+    <Button
+        android:id="@+id/buttondiagramme1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/fleche"
+        app:layout_constraintStart_toStartOf="@+id/diagramme1"
+        app:layout_constraintTop_toTopOf="@+id/diagramme1" />
+
+    <ImageView
+        android:id="@+id/diagramme2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diagramme1"
+        app:srcCompat="@drawable/encadrement_ue" />
+
+    <Button
+        android:id="@+id/buttondiagramme2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/fleche"
+        app:layout_constraintStart_toStartOf="@+id/diagramme2"
+        app:layout_constraintTop_toTopOf="@+id/diagramme2" />
 
     <!--footer -->
     <ImageView
@@ -64,53 +109,5 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/diagramme1"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/effectif_ue" />
-
-    <Button
-        android:id="@+id/buttondiagramme1"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="308dp"
-        android:layout_marginLeft="308dp"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/fleche"
-        app:layout_constraintStart_toStartOf="@+id/diagramme1"
-        app:layout_constraintTop_toTopOf="@+id/diagramme1" />
-
-    <ImageView
-        android:id="@+id/diagramme2"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diagramme1"
-        app:srcCompat="@drawable/encadrement_ue" />
-
-    <Button
-        android:id="@+id/buttondiagramme2"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="308dp"
-        android:layout_marginLeft="308dp"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/fleche"
-        app:layout_constraintStart_toStartOf="@+id/diagramme2"
-        app:layout_constraintTop_toTopOf="@+id/diagramme2" />
-
-    <!-- contenu page -->
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
